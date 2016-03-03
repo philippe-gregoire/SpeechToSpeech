@@ -1,0 +1,21 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "philippe.gregoire@fr.ibm.com",
+      "Space": "AntiBusRED"
+    },
+    "Name": "speech-to-speech-app",
+    "Instrumentation": {
+      "domain": "mybluemix.net",
+      "services": [
+        "Language Translation-7w",
+        "Text to Speech-3r",
+        "Speech To Text-mp"
+      ]
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
